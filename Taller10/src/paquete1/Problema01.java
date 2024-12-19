@@ -21,10 +21,11 @@ public class Problema01 {
         double [] promedio = new double[3];
         int fila;
         int columna;
-        double suma = 0;
+        double suma;
         
         for (fila = 0; fila < notas.length; fila++) {
-            for (columna = 0; columna < 4; columna++) {
+            suma = 0;
+            for (columna = 0; columna < notas[fila].length; columna++) {
                 suma = suma + notas[fila][columna];
             }
             promedio[fila] = suma / 4;
