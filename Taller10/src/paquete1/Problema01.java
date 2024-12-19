@@ -24,7 +24,15 @@ public class Problema01 {
         double suma = 0;
         
         for (fila = 0; fila < notas.length; fila++) {
-            
+            for (columna = 0; columna < 4; columna++) {
+                suma = suma + notas[fila][columna];
+            }
+            promedio[fila] = suma / 4;
+        }
+        for (fila = 0; fila < notas.length; fila++) {
+            System.out.printf("Estudiante: %s tiene un promedio de %.2f\n",
+                    estudiantes[fila],
+                    promedio[fila]);
         }
     }
 
