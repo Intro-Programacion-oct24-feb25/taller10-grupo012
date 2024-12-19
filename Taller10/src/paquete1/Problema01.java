@@ -15,6 +15,17 @@ public class Problema01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        double[][] notas = {{9, 10, 7, 8}, {10, 5, 7, 9}, {7, 9.4, 10, 9}};
+        String[] estudiantes = {"Jerry Ponce", "Gabriela Lewis", "David Bell"};
+        double [] promedio = new double[3];
+        int fila;
+        int columna;
+        double suma = 0;
+        
+        for (fila = 0; fila < notas.length; fila++) {
+            
+        }
     }
-    
+
 }
