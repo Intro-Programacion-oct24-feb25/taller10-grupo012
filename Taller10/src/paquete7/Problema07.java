@@ -26,11 +26,11 @@ public class Problema07 {
         }
         
         if (sumatoria == 0) {
-            System.out.printf("\nEl arreglo es NULO(La suma de "
-                    + "sus valores es %.2f)\n", sumatoria);
+            System.out.printf("El arreglo es NULO(La suma de "
+                    + "sus valores es igual a %.2f)\n", sumatoria);
         } else {
-            System.out.printf("\nEl arreglo NO es NULO (La suma de sus "
-                    + "valores es %.2f)\n", sumatoria);
+            System.out.printf("El arreglo NO es NULO (La suma de sus "
+                    + "valores es igual a %.2f)\n", sumatoria);
         }
     }
 }
