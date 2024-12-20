@@ -19,7 +19,6 @@ public class Problema05 {
         {"Emma Escobar", "Lori Flores"},
         {"Steven West", "Toni Martin"}};
         String cadena = "";
-        
         int fila;
         int columna;
         char primeraLetra;
