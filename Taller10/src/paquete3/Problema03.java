@@ -44,17 +44,12 @@ public class Problema03 {
                 }
             }
         }
-
-        for (int i = 0; i < nombresEstudiante.length; i++) {
-            reporte = String.format("%sEstudiante %s tiene una sumataria "
-                    + "de notas: %.3f\n y su promedio cualitativo es %s\n",
-                    reporte,
-                    nombresEstudiante[i],
-                    sumaNotas[i],
-                    promedioNotasCualitativas[i]);
+        
+        for (int i = 0; i < notasCuantitativas.length; i++) {
+            for (int j = 0; j < notasCuantitativas[i].length; j++) {
+                System.out.printf("%.2f %s\n", notasCuantitativas[i][j],
+                        notasCualitativas[i][j]);
+            }
         }
-
-        System.out.printf("%s\n", reporte);
-
     }
 }
