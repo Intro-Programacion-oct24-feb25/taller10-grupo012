@@ -12,7 +12,7 @@ package paquete6;
 public class Problema06 {
 
     public static void main(String[] args) {
-
+        
         String[][] estudiantes = {{"Sarah Ward", "Philip Payne"},
         {"Carrie Burton", "Lauren Rice"},
         {"Emma Escobar", "Lori Flores"},
