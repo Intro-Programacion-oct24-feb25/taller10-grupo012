@@ -11,4 +11,7 @@ package paquete6;
  */
 public class Problema06 {
     
+    public static void main(String[] args) {
+        
+    }
 }
