@@ -22,8 +22,7 @@ public class Problema04 {
         double[][] datos = new double[2][2];
         double valor;
         int valores_fuera = 0;
-        String cadena = "";
-
+        
         for (int fila = 0; fila < datos.length; fila++) {
             for (int columna = 0; columna < datos[fila].length; columna++) {
                 System.out.printf("Ingrese el valor [%d][%d] para el arreglo\n",
